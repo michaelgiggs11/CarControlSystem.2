@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/IndicatorContainer"
+	android:paddingLeft="5dip" android:layout_width="fill_parent"
+	android:orientation="vertical" android:layout_height="wrap_content"
+	android:paddingTop="10dip" >
+	<TextView android:text="障碍指示灯" 
+		style="@style/MyCarControlLabel" android:layout_weight="1"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:gravity="center|top"></TextView>
+	<LinearLayout 
+		android:layout_width="wrap_content" android:orientation="horizontal"
+		android:layout_marginTop="5dip"
+		android:layout_height="wrap_content" android:layout_gravity="center|center_vertical">
+
+		<ImageButton
+		    android:contentDescription="@string/app_name"
+		    android:id="@+id/Button_left"
+		    style="@style/MyCarButtonDisplay"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/indicator_button_left_off_noglow" ></ImageButton>
+
+		<ImageButton
+		    android:contentDescription="@string/app_name"
+		    android:id="@+id/Button_middle"
+		    style="@style/MyCarButtonDisplay"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/indicator_button_middle_off_noglow" ></ImageButton>
+
+		<ImageButton
+		    android:contentDescription="@string/app_name"
+		    android:id="@+id/Button_right"
+		    style="@style/MyCarButtonDisplay"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/indicator_button_right_off_noglow" ></ImageButton>
+
+	</LinearLayout>
+</LinearLayout>
+

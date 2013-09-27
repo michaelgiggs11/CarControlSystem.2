@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/turn_left"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="38dp"
+        android:layout_y="64dp"
+        android:background="@drawable/turn_left_1"
+        android:text="@string/Turn_left" />
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="116dp"
+        android:layout_y="-4dp"
+        android:background="@drawable/forward_1"
+        android:gravity="center"
+        android:text="@string/Forward" />
+
+    <Button
+        android:id="@+id/turn_right"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="202dp"
+        android:layout_y="60dp"
+        android:background="@drawable/turn_right_1"
+        android:text="@string/Turn_right" />
+
+    <Button
+        android:id="@+id/stoprunning"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="118dp"
+        android:layout_y="62dp"
+        android:background="@drawable/stop_1"
+        android:text="@string/Stop" />
+
+    <Button
+        android:id="@+id/backward"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_x="116dp"
+        android:layout_y="126dp"
+        android:background="@drawable/backward_1"
+        android:text="@string/Backward" />
+
+</AbsoluteLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:background="@drawable/background_holo_dark" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:id="@+id/InOutTabContainer"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:layout_height="36dip">	
+    	<TextView android:layout_width="wrap_content" android:id="@+id/buttonLabel"
+			android:text="@string/output" 
+			android:gravity="center" android:layout_weight="1"
+			android:background="@drawable/tab_focused_holo_dark"
+			android:clickable="true" android:layout_gravity="center"
+			android:layout_height="match_parent"></TextView>
+		<TextView android:text="@string/G_sensor" android:id="@+id/G_sensorLabel"
+			android:layout_width="wrap_content" android:layout_height="match_parent"
+			android:gravity="center"
+			android:layout_weight="1" android:layout_gravity="center"
+			android:clickable="true"></TextView>
+		<TextView android:text="@string/Voice" android:id="@+id/VoiceLabel"
+			android:layout_width="wrap_content" android:layout_height="match_parent"
+			android:gravity="center"
+			android:layout_weight="1" android:layout_gravity="center"
+			android:clickable="true"></TextView>
+		<TextView android:text="@string/Gesture1" android:id="@+id/GestureLabel1"
+			android:layout_width="wrap_content" android:layout_height="match_parent"
+			android:gravity="center"
+			android:layout_weight="1" android:layout_gravity="center"
+			android:clickable="true"></TextView>
+		<TextView android:text="@string/Gesture" android:id="@+id/GestureLabel"
+			android:layout_width="wrap_content" android:layout_height="match_parent"
+			android:gravity="center"
+			android:layout_weight="1" android:layout_gravity="center"
+			android:clickable="true"></TextView>
+		
+		
+</LinearLayout>
+<FrameLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:orientation="vertical"
+		android:paddingLeft="10dip" android:paddingRight="10dip">
+		<include layout="@layout/buttoncontainer" android:id="@+id/ButtonContainer"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+		
+		
+		
+		<include layout="@layout/voicecontainer" android:id="@+id/VoiceContainer" 
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+		<include
+		    android:id="@+id/G_sensorContainer"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    layout="@layout/g_sensorcontainer" />
+		
+		<include
+		    android:id="@+id/GestureContainer1"
+		    android:layout_width="280dp"
+		    android:layout_height="328dp"
+		    layout="@layout/gesturecontainer1" />
+
+		<include
+		    android:id="@+id/GestureContainer"
+		    android:layout_width="280dp"
+		    android:layout_height="328dp"
+		    layout="@layout/gesturecontainer" />
+		 
+</FrameLayout>	
+</LinearLayout>

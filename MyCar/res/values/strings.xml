@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MyCar</string>
+	<string name="no_device">Please connect an accessory board.</string>
+	<string name="pwmout1Label">速度调节</string>
+	
+	<string name="off">Off</string>
+	<string name="on">On</string>
+	<string name="Forward"> </string>
+	<string name="Backward"> </string>
+	<string name="Turn_left"> </string>
+	<string name="Turn_right"> </string>
+	<string name="Stop"> </string>
+	<string name="output">按键控制</string>
+	<string name="G_sensor">重力感应</string>
+	<string name="Voice">语音控制</string>
+	<string name="app_about">关于</string>
+	<string name="app_about_msg">基于Android Open Accessory的小车控制软件开发\n\n\t开发者：李毅煌  石超</string>
+	<string name="str_ok">OK</string>
+	<string name="app_exit">退出？</string>
+	<string name="app_exit_msg">您确定要退出程序吗？</string>
+	<string name="str_no">No</string>
+	<string name="str_yes">Yes</string>
+	<string name="Gesture">手势控制</string>
+	<string name="Gesture_text">Gesture.....</string>
+	<string name="Gesture1">滑动控制</string>
+</resources>
