@@ -1,1 +1,1 @@
-由于该控制软件中用到自定义的手势库MyGesturesLib，所以要将该文件放入手机sdcard的根目录下
+The application need library. Please put the library into your sd card of Android device
